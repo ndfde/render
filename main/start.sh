@@ -4,7 +4,7 @@ export PATH_trojan=${PATH_trojan-/api-trojan}
 export PATH_vmess=${PATH_vmess-/api-vmess}
 
 
-tar -xzvf page.zip
+tar -xzvf page.tar.gz
 
 chmod +x ./caddy
 ./caddy start
